@@ -1,0 +1,1773 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "programacion logica",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "HelloWorldIntent",
+          "slots": [],
+          "samples": [
+            "hola",
+            "como estás",
+            "di hola mundo",
+            "di hola",
+            "hola mundo"
+          ]
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "AnimalmarIntent",
+          "slots": [
+            {
+              "name": "mar",
+              "type": "Maritimos"
+            }
+          ],
+          "samples": [
+            "animales de mar {mar}"
+          ]
+        },
+        {
+          "name": "AnimalTerrestreIntent",
+          "slots": [
+            {
+              "name": "terrestre",
+              "type": "animalterrestre"
+            }
+          ],
+          "samples": [
+            "animales terrestre {terrestre}"
+          ]
+        },
+        {
+          "name": "AnimalesaereosIntent",
+          "slots": [
+            {
+              "name": "aereos",
+              "type": "Animalesaereos"
+            }
+          ],
+          "samples": [
+            "Animales voladores {aereos}"
+          ]
+        },
+        {
+          "name": "SelvaanimalIntent",
+          "slots": [
+            {
+              "name": "selva",
+              "type": "animalselva"
+            }
+          ],
+          "samples": [
+            "animal de selva {selva}"
+          ]
+        },
+        {
+          "name": "insectosIntent",
+          "slots": [
+            {
+              "name": "insecto",
+              "type": "insectos"
+            }
+          ],
+          "samples": [
+            "que es una {insecto}"
+          ]
+        },
+        {
+          "name": "generorockInten",
+          "slots": [
+            {
+              "name": "rock",
+              "type": "artistarock"
+            }
+          ],
+          "samples": [
+            "artista de rock {rock}"
+          ]
+        },
+        {
+          "name": "generorapIntent",
+          "slots": [
+            {
+              "name": "rap",
+              "type": "artistarap"
+            }
+          ],
+          "samples": [
+            "artista de genero rap {rap}"
+          ]
+        },
+        {
+          "name": "generojazzIntent",
+          "slots": [
+            {
+              "name": "jazz",
+              "type": "artistajazz"
+            }
+          ],
+          "samples": [
+            "artista genero jazz {jazz}"
+          ]
+        },
+        {
+          "name": "generohiphopIntent",
+          "slots": [
+            {
+              "name": "hiphop",
+              "type": "artistahiphop"
+            }
+          ],
+          "samples": [
+            "artista de hip hop {hiphop}"
+          ]
+        },
+        {
+          "name": "razaperroIntent",
+          "slots": [
+            {
+              "name": "raza",
+              "type": "razaperro"
+            }
+          ],
+          "samples": [
+            "que tipo de perro tengo {raza}"
+          ]
+        },
+        {
+          "name": "marcacelIntent",
+          "slots": [
+            {
+              "name": "marcacelular",
+              "type": "marcacel"
+            }
+          ],
+          "samples": [
+            "marca de celulares {marcacelular}"
+          ]
+        },
+        {
+          "name": "MarcapcIntent",
+          "slots": [
+            {
+              "name": "marcapc",
+              "type": "marcacompu"
+            }
+          ],
+          "samples": [
+            "marca de mi computadora {marcapc}"
+          ]
+        },
+        {
+          "name": "MarcatennisIntent",
+          "slots": [
+            {
+              "name": "marcatennis",
+              "type": "tennismarca"
+            }
+          ],
+          "samples": [
+            "marca de tennis {marcatennis}"
+          ]
+        },
+        {
+          "name": "lacucaracha",
+          "slots": [
+            {
+              "name": "cucaracha",
+              "type": "lacuaracha"
+            }
+          ],
+          "samples": [
+            "la {cucaracha}"
+          ]
+        },
+        {
+          "name": "generoreggetonIntent",
+          "slots": [
+            {
+              "name": "reggeton",
+              "type": "artreggeton"
+            }
+          ],
+          "samples": [
+            "artista de reggeton {reggeton}"
+          ]
+        },
+        {
+          "name": "larachamaslinadaIntent",
+          "slots": [
+            {
+              "name": "lanochemas",
+              "type": "maslindadelmundo"
+            }
+          ],
+          "samples": [
+            "Y yo llegué a tu casa temblando de miedo {lanochemas}"
+          ]
+        },
+        {
+          "name": "EntretenimientoIntent",
+          "slots": [
+            {
+              "name": "streaming",
+              "type": "streamingslot"
+            }
+          ],
+          "samples": [
+            "lugar de streaming favorito {streaming}"
+          ]
+        },
+        {
+          "name": "ReconocimientoterrorIntent",
+          "slots": [
+            {
+              "name": "peliterror",
+              "type": "peliculadeterror"
+            }
+          ],
+          "samples": [
+            "recomendacion de pelicula de terror {peliterror}"
+          ]
+        },
+        {
+          "name": "RecomendacioncomendiaIntent",
+          "slots": [
+            {
+              "name": "comedia",
+              "type": "comediaslot"
+            }
+          ],
+          "samples": [
+            "recomendacion de peliculas de comedia {comedia}"
+          ]
+        },
+        {
+          "name": "recomendacionsuspensoIntent",
+          "slots": [
+            {
+              "name": "suspenso",
+              "type": "suspensoslot"
+            }
+          ],
+          "samples": [
+            "recomendacion de peliculas de suspenso {suspenso}"
+          ]
+        },
+        {
+          "name": "MarcadeaireIntent",
+          "slots": [
+            {
+              "name": "ac",
+              "type": "aireacondicionado"
+            }
+          ],
+          "samples": [
+            "marca de aire acondicionado {ac}"
+          ]
+        },
+        {
+          "name": "marcatermosIntent",
+          "slots": [
+            {
+              "name": "termo",
+              "type": "termoslot"
+            }
+          ],
+          "samples": [
+            "que termo tienes {termo}"
+          ]
+        },
+        {
+          "name": "marcagraficaIntent",
+          "slots": [
+            {
+              "name": "grafica",
+              "type": "graficasSlot"
+            }
+          ],
+          "samples": [
+            "tipo de graficas {grafica}"
+          ]
+        },
+        {
+          "name": "CarrosawdIntent",
+          "slots": [
+            {
+              "name": "awd",
+              "type": "awdslot"
+            }
+          ],
+          "samples": [
+            "los mejores carros  {awd}"
+          ]
+        },
+        {
+          "name": "Carroallterren",
+          "slots": [
+            {
+              "name": "allterren",
+              "type": "allterrenSlot"
+            }
+          ],
+          "samples": [
+            "los mejores carros todo terreno {allterren}"
+          ]
+        },
+        {
+          "name": "Marcaaudifonos",
+          "slots": [
+            {
+              "name": "audifonos",
+              "type": "audifonosSlot"
+            }
+          ],
+          "samples": [
+            "mejores audifonos {audifonos}"
+          ]
+        },
+        {
+          "name": "FreestyleIntent",
+          "slots": [
+            {
+              "name": "liric",
+              "type": "liricSlot"
+            }
+          ],
+          "samples": [
+            "el mejor freestyler {liric}"
+          ]
+        },
+        {
+          "name": "Estados",
+          "slots": [
+            {
+              "name": "mejorEstado",
+              "type": "EstadosSlot"
+            }
+          ],
+          "samples": [
+            "los mejores estados {mejorEstado}"
+          ]
+        },
+        {
+          "name": "canaltele",
+          "slots": [
+            {
+              "name": "canales",
+              "type": "Canaltv"
+            }
+          ],
+          "samples": [
+            "canales destacados {canales} "
+          ]
+        },
+        {
+          "name": "carroslentos",
+          "slots": [
+            {
+              "name": "peorcarro",
+              "type": "peorescarros"
+            }
+          ],
+          "samples": [
+            "los peores carros {peorcarro}"
+          ]
+        },
+        {
+          "name": "Banda",
+          "slots": [
+            {
+              "name": "cancionbanda",
+              "type": "bandaslot"
+            }
+          ],
+          "samples": [
+            "artista de esta cancion fuiste tu {cancionbanda}"
+          ]
+        },
+        {
+          "name": "divisas",
+          "slots": [
+            {
+              "name": "totaldivisas",
+              "type": "divisasTotal"
+            }
+          ],
+          "samples": [
+            "tipo de cambio {totaldivisas}"
+          ]
+        },
+        {
+          "name": "marcavaper",
+          "slots": [
+            {
+              "name": "vaper",
+              "type": "marcavaperslot"
+            }
+          ],
+          "samples": [
+            "marca de vaper {vaper}"
+          ]
+        },
+        {
+          "name": "marcayogurt",
+          "slots": [
+            {
+              "name": "yogurt",
+              "type": "marcayogurt"
+            }
+          ],
+          "samples": [
+            "recomendacion de yogurt {yogurt}"
+          ]
+        },
+        {
+          "name": "Ganamundial",
+          "slots": [
+            {
+              "name": "ganarmundial",
+              "type": "mundialganador"
+            }
+          ],
+          "samples": [
+            "probabilidad de ganar el mundial {ganarmundial}"
+          ]
+        },
+        {
+          "name": "Comediantesmexicanos",
+          "slots": [
+            {
+              "name": "comediantemex",
+              "type": "comediantemexa"
+            }
+          ],
+          "samples": [
+            "comediante mexicano {comediantemex}"
+          ]
+        },
+        {
+          "name": "Comediantesusa",
+          "slots": [
+            {
+              "name": "Comediausa",
+              "type": "comeusa"
+            }
+          ],
+          "samples": [
+            "comediante de usa {Comediausa}"
+          ]
+        },
+        {
+          "name": "escuelaprimaria",
+          "slots": [
+            {
+              "name": "primaria",
+              "type": "escuelaprimariacsl"
+            }
+          ],
+          "samples": [
+            "mejor escuela primaria cabo san lucas {primaria}"
+          ]
+        },
+        {
+          "name": "jugadoresargentinos",
+          "slots": [
+            {
+              "name": "argentinos",
+              "type": "teamargentino"
+            }
+          ],
+          "samples": [
+            "jugadores argentinos {argentinos}"
+          ]
+        },
+        {
+          "name": "jugadoresportugal",
+          "slots": [
+            {
+              "name": "portugal",
+              "type": "teamportugal"
+            }
+          ],
+          "samples": [
+            "jugadores portugeses {portugal}"
+          ]
+        },
+        {
+          "name": "jugadoresbelgica",
+          "slots": [
+            {
+              "name": "belgica",
+              "type": "teambelgica"
+            }
+          ],
+          "samples": [
+            "jugadores de belgica {belgica}"
+          ]
+        },
+        {
+          "name": "jugadoresfrances",
+          "slots": [
+            {
+              "name": "francia",
+              "type": "teamfrancia"
+            }
+          ],
+          "samples": [
+            "jugadores franceses {francia}"
+          ]
+        },
+        {
+          "name": "jugadoresmexicanos",
+          "slots": [
+            {
+              "name": "mexico",
+              "type": "teammexico"
+            }
+          ],
+          "samples": [
+            "jugadores mexicanos {mexico}"
+          ]
+        },
+        {
+          "name": "jugadoresespana",
+          "slots": [
+            {
+              "name": "espana",
+              "type": "teamespana"
+            }
+          ],
+          "samples": [
+            "jugadores españoles {espana}"
+          ]
+        },
+        {
+          "name": "jugadorescostarica",
+          "slots": [
+            {
+              "name": "costarica",
+              "type": "teamcostarica"
+            }
+          ],
+          "samples": [
+            "jugadores de costa rica {costarica}"
+          ]
+        },
+        {
+          "name": "marcataladro",
+          "slots": [
+            {
+              "name": "taladros",
+              "type": "slottaladros"
+            }
+          ],
+          "samples": [
+            "tipo de taladros {taladros}"
+          ]
+        },
+        {
+          "name": "marcacervezas",
+          "slots": [
+            {
+              "name": "cervezass",
+              "type": "cervezasslot"
+            }
+          ],
+          "samples": [
+            "tipo de cervezas {cervezass}"
+          ]
+        },
+        {
+          "name": "marcapila",
+          "slots": [
+            {
+              "name": "pilas",
+              "type": "pilaslot"
+            }
+          ],
+          "samples": [
+            "tipo de pilas {pilas}"
+          ]
+        },
+        {
+          "name": "tiponavegador",
+          "slots": [
+            {
+              "name": "navegador",
+              "type": "navegadores"
+            }
+          ],
+          "samples": [
+            "tipo de navegador {navegador}"
+          ]
+        },
+        {
+          "name": "marcaestereo",
+          "slots": [
+            {
+              "name": "estereo",
+              "type": "estereoslot"
+            }
+          ],
+          "samples": [
+            "marca de estereos {estereo}"
+          ]
+        },
+        {
+          "name": "cancionaleman",
+          "slots": [
+            {
+              "name": "aleman",
+              "type": "alemalandro"
+            }
+          ],
+          "samples": [
+            "me preguntan {aleman}"
+          ]
+        },
+        {
+          "name": "cancionloshombreg",
+          "slots": [
+            {
+              "name": "hombreg",
+              "type": "hombreggg"
+            }
+          ],
+          "samples": [
+            "sufre mamon de vuelveme a mi {hombreg}"
+          ]
+        },
+        {
+          "name": "blockesmaicra",
+          "slots": [
+            {
+              "name": "bloquesminecraft",
+              "type": "minecraft"
+            }
+          ],
+          "samples": [
+            "tipo de bloques minecraft {bloquesminecraft}"
+          ]
+        },
+        {
+          "name": "pokemontipoagua",
+          "slots": [
+            {
+              "name": "agua",
+              "type": "pokemonagua"
+            }
+          ],
+          "samples": [
+            "pokemon tipo agua {agua}"
+          ]
+        },
+        {
+          "name": "pokemontipotierra",
+          "slots": [
+            {
+              "name": "tierra",
+              "type": "pokemontierra"
+            }
+          ],
+          "samples": [
+            "pokemon tipo tierra {tierra}"
+          ]
+        },
+        {
+          "name": "pokemontipofantasma",
+          "slots": [
+            {
+              "name": "fantasma",
+              "type": "fantasmapokemon"
+            }
+          ],
+          "samples": [
+            "pokemon tipo fantasma {fantasma}"
+          ]
+        },
+        {
+          "name": "pokemontipohielo",
+          "slots": [
+            {
+              "name": "hielo",
+              "type": "pokemonhielo"
+            }
+          ],
+          "samples": [
+            "pokemon tipo hielo {hielo}"
+          ]
+        },
+        {
+          "name": "pokemontiporoca",
+          "slots": [
+            {
+              "name": "roca",
+              "type": "pokemonroca"
+            }
+          ],
+          "samples": [
+            "pokemon tipo roca {roca}"
+          ]
+        },
+        {
+          "name": "pokemontipohierro",
+          "slots": [
+            {
+              "name": "hierro",
+              "type": "hierropokemon"
+            }
+          ],
+          "samples": [
+            "pokemon tipo hierro {hierro}"
+          ]
+        },
+        {
+          "name": "terminamos",
+          "slots": [
+            {
+              "name": "diego",
+              "type": "diegofinish"
+            }
+          ],
+          "samples": [
+            "por fin terminamos {diego}"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "nemo"
+              }
+            },
+            {
+              "name": {
+                "value": "delfin"
+              }
+            },
+            {
+              "name": {
+                "value": "ballena"
+              }
+            }
+          ],
+          "name": "Maritimos"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "iguana"
+              }
+            },
+            {
+              "name": {
+                "value": "serpiente"
+              }
+            },
+            {
+              "name": {
+                "value": "tigre"
+              }
+            }
+          ],
+          "name": "animalterrestre"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "agila"
+              }
+            },
+            {
+              "name": {
+                "value": "paloma"
+              }
+            },
+            {
+              "name": {
+                "value": "pelicano"
+              }
+            }
+          ],
+          "name": "Animalesaereos"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "tigre"
+              }
+            },
+            {
+              "name": {
+                "value": "mono"
+              }
+            },
+            {
+              "name": {
+                "value": "pantera"
+              }
+            }
+          ],
+          "name": "animalselva"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "mosquito"
+              }
+            },
+            {
+              "name": {
+                "value": "mosca "
+              }
+            },
+            {
+              "name": {
+                "value": "cucaracha"
+              }
+            }
+          ],
+          "name": "insectos"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "muse"
+              }
+            },
+            {
+              "name": {
+                "value": "the beatles"
+              }
+            },
+            {
+              "name": {
+                "value": "red hot "
+              }
+            }
+          ],
+          "name": "artistarock"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "cartel de santa"
+              }
+            },
+            {
+              "name": {
+                "value": "santa fe klan"
+              }
+            },
+            {
+              "name": {
+                "value": "aleman"
+              }
+            }
+          ],
+          "name": "artistarap"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": " coltrane"
+              }
+            },
+            {
+              "name": {
+                "value": "norah"
+              }
+            },
+            {
+              "name": {
+                "value": "miles davis"
+              }
+            }
+          ],
+          "name": "artistajazz"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "mad villan"
+              }
+            },
+            {
+              "name": {
+                "value": "mos def"
+              }
+            },
+            {
+              "name": {
+                "value": "mf doom"
+              }
+            }
+          ],
+          "name": "artistahiphop"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "cocker ingles"
+              }
+            },
+            {
+              "name": {
+                "value": "cavalier"
+              }
+            },
+            {
+              "name": {
+                "value": "schnauzer"
+              }
+            }
+          ],
+          "name": "razaperro"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "redmi"
+              }
+            },
+            {
+              "name": {
+                "value": "samsung"
+              }
+            },
+            {
+              "name": {
+                "value": "iphone"
+              }
+            }
+          ],
+          "name": "marcacel"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "lenovo"
+              }
+            },
+            {
+              "name": {
+                "value": "msi"
+              }
+            },
+            {
+              "name": {
+                "value": "asus"
+              }
+            }
+          ],
+          "name": "marcacompu"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "nike"
+              }
+            },
+            {
+              "name": {
+                "value": "charly"
+              }
+            },
+            {
+              "name": {
+                "value": "adidas"
+              }
+            }
+          ],
+          "name": "tennismarca"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "cucaracha"
+              }
+            },
+            {
+              "name": {
+                "value": "ya no puede caminar, porque le fata una patita para andar"
+              }
+            }
+          ],
+          "name": "lacuaracha"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "pit bull"
+              }
+            },
+            {
+              "name": {
+                "value": "dady yankee"
+              }
+            },
+            {
+              "name": {
+                "value": "bad bunny"
+              }
+            }
+          ],
+          "name": "artreggeton"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "racha"
+              }
+            },
+            {
+              "name": {
+                "value": "noche"
+              }
+            }
+          ],
+          "name": "maslindadelmundo"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "youtube"
+              }
+            },
+            {
+              "name": {
+                "value": "cuevana"
+              }
+            },
+            {
+              "name": {
+                "value": "netflix"
+              }
+            }
+          ],
+          "name": "streamingslot"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "la cosa"
+              }
+            },
+            {
+              "name": {
+                "value": "el resplandor"
+              }
+            },
+            {
+              "name": {
+                "value": "halloween"
+              }
+            }
+          ],
+          "name": "peliculadeterror"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "quienes son los miller"
+              }
+            },
+            {
+              "name": {
+                "value": "pasante de moda"
+              }
+            },
+            {
+              "name": {
+                "value": "la otra missy"
+              }
+            }
+          ],
+          "name": "comediaslot"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "el perfume"
+              }
+            },
+            {
+              "name": {
+                "value": "codigo esperado"
+              }
+            },
+            {
+              "name": {
+                "value": "multiple"
+              }
+            }
+          ],
+          "name": "suspensoslot"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "samsung"
+              }
+            },
+            {
+              "name": {
+                "value": "mirage"
+              }
+            },
+            {
+              "name": {
+                "value": "green"
+              }
+            }
+          ],
+          "name": "aireacondicionado"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "termo milu"
+              }
+            },
+            {
+              "name": {
+                "value": "flintronix"
+              }
+            },
+            {
+              "name": {
+                "value": "matraz"
+              }
+            }
+          ],
+          "name": "termoslot"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "radeom"
+              }
+            },
+            {
+              "name": {
+                "value": "nvidia"
+              }
+            }
+          ],
+          "name": "graficasSlot"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "audi tt"
+              }
+            },
+            {
+              "name": {
+                "value": "dodge charger"
+              }
+            },
+            {
+              "name": {
+                "value": "subaru wrx"
+              }
+            }
+          ],
+          "name": "awdslot"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "honda nxv750"
+              }
+            },
+            {
+              "name": {
+                "value": "max v8"
+              }
+            }
+          ],
+          "name": "allterrenSlot"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "sonny"
+              }
+            },
+            {
+              "name": {
+                "value": "jbl"
+              }
+            }
+          ],
+          "name": "audifonosSlot"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "wos"
+              }
+            },
+            {
+              "name": {
+                "value": "aczino"
+              }
+            }
+          ],
+          "name": "liricSlot"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "monterry"
+              }
+            },
+            {
+              "name": {
+                "value": "queretaro"
+              }
+            }
+          ],
+          "name": "EstadosSlot"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "7"
+              }
+            },
+            {
+              "name": {
+                "value": "5"
+              }
+            }
+          ],
+          "name": "Canaltv"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "lincon continental"
+              }
+            },
+            {
+              "name": {
+                "value": "cadillac coupe"
+              }
+            }
+          ],
+          "name": "peorescarros"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "ricardo"
+              }
+            },
+            {
+              "name": {
+                "value": "la que con su risa me dejo sin habla"
+              }
+            }
+          ],
+          "name": "bandaslot"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "la que se metio en mi mente no quiso salir se y me gusto la idea"
+              }
+            }
+          ],
+          "name": "Cancionb"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "dlls"
+              }
+            },
+            {
+              "name": {
+                "value": "eur"
+              }
+            }
+          ],
+          "name": "divisasTotal"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "vaporesso"
+              }
+            },
+            {
+              "name": {
+                "value": "smok"
+              }
+            }
+          ],
+          "name": "marcavaperslot"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "griego"
+              }
+            },
+            {
+              "name": {
+                "value": "oiko"
+              }
+            }
+          ],
+          "name": "marcayogurt"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "brasil"
+              }
+            },
+            {
+              "name": {
+                "value": "mexico"
+              }
+            },
+            {
+              "name": {
+                "value": "argentina"
+              }
+            }
+          ],
+          "name": "mundialganador"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "roberto flores"
+              }
+            },
+            {
+              "name": {
+                "value": "sofia niña"
+              }
+            }
+          ],
+          "name": "comediantemexa"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "jerry"
+              }
+            },
+            {
+              "name": {
+                "value": "kevin hart"
+              }
+            }
+          ],
+          "name": "comeusa"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "primaria lampar"
+              }
+            },
+            {
+              "name": {
+                "value": "frida khalo"
+              }
+            }
+          ],
+          "name": "escuelaprimariacsl"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "di maria"
+              }
+            },
+            {
+              "name": {
+                "value": "messi"
+              }
+            },
+            {
+              "name": {
+                "value": "lautaro"
+              }
+            }
+          ],
+          "name": "teamargentino"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "pepe"
+              }
+            },
+            {
+              "name": {
+                "value": "cristiano"
+              }
+            }
+          ],
+          "name": "teamportugal"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "bruyna"
+              }
+            },
+            {
+              "name": {
+                "value": "hazard"
+              }
+            }
+          ],
+          "name": "teambelgica"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "mbape"
+              }
+            },
+            {
+              "name": {
+                "value": "dembele"
+              }
+            }
+          ],
+          "name": "teamfrancia"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "lozano"
+              }
+            },
+            {
+              "name": {
+                "value": "vega"
+              }
+            }
+          ],
+          "name": "teammexico"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "busque"
+              }
+            },
+            {
+              "name": {
+                "value": "gavi"
+              }
+            }
+          ],
+          "name": "teamespana"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "navas"
+              }
+            }
+          ],
+          "name": "teamcostarica"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "makita"
+              }
+            },
+            {
+              "name": {
+                "value": "milwakeer"
+              }
+            }
+          ],
+          "name": "slottaladros"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "de trigo"
+              }
+            },
+            {
+              "name": {
+                "value": "ale"
+              }
+            }
+          ],
+          "name": "cervezasslot"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "sonny"
+              }
+            },
+            {
+              "name": {
+                "value": "panasonic"
+              }
+            }
+          ],
+          "name": "pilaslot"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "crome "
+              }
+            },
+            {
+              "name": {
+                "value": "internet explorer"
+              }
+            }
+          ],
+          "name": "navegadores"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "jbl"
+              }
+            },
+            {
+              "name": {
+                "value": "sonny"
+              }
+            }
+          ],
+          "name": "estereoslot"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "aleman"
+              }
+            }
+          ],
+          "name": "alemalandro"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "chica"
+              }
+            }
+          ],
+          "name": "hombreggg"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "mena de plata"
+              }
+            },
+            {
+              "name": {
+                "value": "mena de oro"
+              }
+            },
+            {
+              "name": {
+                "value": "mena de diamante"
+              }
+            }
+          ],
+          "name": "minecraft"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "psyduck"
+              }
+            },
+            {
+              "name": {
+                "value": "squirtle"
+              }
+            }
+          ],
+          "name": "pokemonagua"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "metapod"
+              }
+            },
+            {
+              "name": {
+                "value": "caterpie"
+              }
+            }
+          ],
+          "name": "pokemontierra"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "gengar"
+              }
+            },
+            {
+              "name": {
+                "value": "gastly"
+              }
+            }
+          ],
+          "name": "fantasmapokemon"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "cloyster"
+              }
+            },
+            {
+              "name": {
+                "value": "dewgong"
+              }
+            }
+          ],
+          "name": "pokemonhielo"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "onix"
+              }
+            },
+            {
+              "name": {
+                "value": "geodude"
+              }
+            }
+          ],
+          "name": "pokemonroca"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "aron"
+              }
+            },
+            {
+              "name": {
+                "value": "steelix"
+              }
+            }
+          ],
+          "name": "hierropokemon"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "diego"
+              }
+            }
+          ],
+          "name": "diegofinish"
+        }
+      ]
+    }
+  },
+  "version": "70"
+}
